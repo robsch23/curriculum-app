@@ -34,8 +34,8 @@ const AppLayout = () => {
               <Box flex={1} height={'100%'}>
                 <Plx parallaxData={[
                   {
-                    start: 0,
-                    end: 500,
+                    start: 400,
+                    end: 800,
                     properties: [
                       {
                         startValue: 1,
@@ -45,8 +45,8 @@ const AppLayout = () => {
                     ]
                   },
                   {
-                    start: 300,
-                    end: 600,
+                    start: 400,
+                    end: 800,
                     properties: [
                       {
                         startValue: 0,
@@ -69,8 +69,8 @@ const AppLayout = () => {
               <Box className={'home-name'} flex={2}>
                 <Plx parallaxData={[
                     {
-                      start: 400,
-                      end: 600,
+                      start: 500,
+                      end: 800,
                       properties: [
                         {
                           startValue: 0,
@@ -113,7 +113,7 @@ const AppLayout = () => {
                       ]
                     }
                   ]}>
-                    <Typography variant="h1" color="white" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed', opacity:0.02 }}>
+                    <Typography variant="h1" color="white" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed', opacity:0.1 }}>
                           Home
                     </Typography>
                   </Plx>
